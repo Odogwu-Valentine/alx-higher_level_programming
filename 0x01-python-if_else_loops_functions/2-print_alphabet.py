@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-res = ""
-for idx in range(97,123):
-       res = res + chr(idx)
-print(str(res))
+for c in range(ord('a'), ord('z') + 1):
+    print("{}".format(chr(c)), end="")
